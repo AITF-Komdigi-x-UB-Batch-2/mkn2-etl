@@ -4067,7 +4067,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4137,7 +4137,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "kayu/papan/gypsum/GRC/calciboar",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4277,7 +4277,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "kayu/papan/gypsum/GRC/calciboar",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4317,7 +4317,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4337,7 +4337,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "val"
   },
   {
@@ -4367,7 +4367,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4377,7 +4377,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4467,7 +4467,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4477,7 +4477,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "kayu/papan/gypsum/GRC/calciboar",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4497,7 +4497,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "val"
   },
   {
@@ -4537,7 +4537,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "kayu/papan/gypsum/GRC/calciboar",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "test"
   },
   {
@@ -4557,7 +4557,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "kayu/papan/gypsum/GRC/calciboar",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4567,7 +4567,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4577,7 +4577,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "kayu/papan/gypsum/GRC/calciboar",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4587,7 +4587,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4777,7 +4777,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4867,7 +4867,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "kayu/papan/gypsum/GRC/calciboar",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4897,7 +4897,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "kayu/papan/gypsum/GRC/calciboar",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "val"
   },
   {
@@ -4907,7 +4907,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4917,7 +4917,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4977,7 +4977,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4987,7 +4987,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -4997,7 +4997,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -5017,7 +5017,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "test"
   },
   {
@@ -5027,7 +5027,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -5117,7 +5117,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "test"
   },
   {
@@ -5177,7 +5177,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "test"
   },
   {
@@ -5257,7 +5257,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "test"
   },
   {
@@ -5407,7 +5407,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
@@ -5487,7 +5487,7 @@
     "kelayakan_rumah": "layak",
     "material_atap": null,
     "material_dinding": "tembok",
-    "material_lantai": "marmet/granit",
+    "material_lantai": "marmer/granit",
     "split": "train"
   },
   {
