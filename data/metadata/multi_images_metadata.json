@@ -1,0 +1,2902 @@
+[
+  {
+    "house_id": "H00001",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00001",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000006",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0006.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000577",
+        "image_path": "rlh_int/mkn_single_rlh_int_0165.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00002",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00002",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000112",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0112.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000438",
+        "image_path": "rlh_int/mkn_single_rlh_int_0026.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00003",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00003",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000144",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0144.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000586",
+        "image_path": "rlh_int/mkn_single_rlh_int_0174.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00004",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00004",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000054",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0054.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000613",
+        "image_path": "rlh_int/mkn_single_rlh_int_0201.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00005",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00005",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000103",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0103.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000658",
+        "image_path": "rlh_int/mkn_single_rlh_int_0246.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00006",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00006",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000003",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0003.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000514",
+        "image_path": "rlh_int/mkn_single_rlh_int_0102.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "ubin/tegel/teraso"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00007",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00007",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000108",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0108.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000607",
+        "image_path": "rlh_int/mkn_single_rlh_int_0195.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00008",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00008",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000111",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0111.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000614",
+        "image_path": "rlh_int/mkn_single_rlh_int_0202.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "semen/bata_merah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00009",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00009",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000178",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0178.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000599",
+        "image_path": "rlh_int/mkn_single_rlh_int_0187.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00010",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00010",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000152",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0152.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000505",
+        "image_path": "rlh_int/mkn_single_rlh_int_0093.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00011",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00011",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000182",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0182.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000495",
+        "image_path": "rlh_int/mkn_single_rlh_int_0083.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00012",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00012",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000228",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0228.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000522",
+        "image_path": "rlh_int/mkn_single_rlh_int_0110.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00013",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00013",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000227",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0227.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000584",
+        "image_path": "rlh_int/mkn_single_rlh_int_0172.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00014",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00014",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000141",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0141.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000540",
+        "image_path": "rlh_int/mkn_single_rlh_int_0128.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00015",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00015",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000163",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0163.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000539",
+        "image_path": "rlh_int/mkn_single_rlh_int_0127.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00016",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00016",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000203",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0203.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000642",
+        "image_path": "rlh_int/mkn_single_rlh_int_0230.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00017",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00017",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000269",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0269.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000644",
+        "image_path": "rlh_int/mkn_single_rlh_int_0232.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00018",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00018",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000335",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0335.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000481",
+        "image_path": "rlh_int/mkn_single_rlh_int_0069.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00019",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00019",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000338",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0338.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000628",
+        "image_path": "rlh_int/mkn_single_rlh_int_0216.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "marmer/granit"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00020",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00020",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000323",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0323.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000530",
+        "image_path": "rlh_int/mkn_single_rlh_int_0118.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00021",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00021",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000001",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0001.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000413",
+        "image_path": "rlh_int/mkn_single_rlh_int_0001.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00022",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00022",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000055",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0055.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000424",
+        "image_path": "rlh_int/mkn_single_rlh_int_0012.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "semen/bata_merah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00023",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00023",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000237",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0237.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000547",
+        "image_path": "rlh_int/mkn_single_rlh_int_0135.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00024",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00024",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000179",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0179.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000591",
+        "image_path": "rlh_int/mkn_single_rlh_int_0179.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00025",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00025",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000200",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0200.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000504",
+        "image_path": "rlh_int/mkn_single_rlh_int_0092.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00026",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00026",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000210",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0210.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000590",
+        "image_path": "rlh_int/mkn_single_rlh_int_0178.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00027",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00027",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000241",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0241.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000553",
+        "image_path": "rlh_int/mkn_single_rlh_int_0141.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "marmer/granit"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00028",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00028",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000249",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0249.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000560",
+        "image_path": "rlh_int/mkn_single_rlh_int_0148.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00029",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00029",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000251",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0251.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000556",
+        "image_path": "rlh_int/mkn_single_rlh_int_0144.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00030",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00030",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000273",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0273.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000661",
+        "image_path": "rlh_int/mkn_single_rlh_int_0249.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00031",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00031",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000005",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0005.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000569",
+        "image_path": "rlh_int/mkn_single_rlh_int_0157.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00032",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00032",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000126",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0126.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000606",
+        "image_path": "rlh_int/mkn_single_rlh_int_0194.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00033",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00033",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000140",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0140.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000593",
+        "image_path": "rlh_int/mkn_single_rlh_int_0181.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00034",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00034",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000017",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0017.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000616",
+        "image_path": "rlh_int/mkn_single_rlh_int_0204.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00035",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00035",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000142",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0142.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000654",
+        "image_path": "rlh_int/mkn_single_rlh_int_0242.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "marmer/granit"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00036",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00036",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000214",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0214.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000657",
+        "image_path": "rlh_int/mkn_single_rlh_int_0245.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00037",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00037",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000215",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0215.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000636",
+        "image_path": "rlh_int/mkn_single_rlh_int_0224.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00038",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00038",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000171",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0171.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000518",
+        "image_path": "rlh_int/mkn_single_rlh_int_0106.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00039",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00039",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000164",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0164.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000597",
+        "image_path": "rlh_int/mkn_single_rlh_int_0185.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00040",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00040",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000168",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0168.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000585",
+        "image_path": "rlh_int/mkn_single_rlh_int_0173.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00041",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00041",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000204",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0204.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000526",
+        "image_path": "rlh_int/mkn_single_rlh_int_0114.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00042",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00042",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000124",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0124.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000568",
+        "image_path": "rlh_int/mkn_single_rlh_int_0156.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00043",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00043",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000172",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0172.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000511",
+        "image_path": "rlh_int/mkn_single_rlh_int_0099.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "asbes",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00044",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00044",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000221",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0221.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000523",
+        "image_path": "rlh_int/mkn_single_rlh_int_0111.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "marmer/granit"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00045",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00045",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000186",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0186.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000507",
+        "image_path": "rlh_int/mkn_single_rlh_int_0095.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00046",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00046",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000232",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0232.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000562",
+        "image_path": "rlh_int/mkn_single_rlh_int_0150.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00047",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00047",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000293",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0293.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000476",
+        "image_path": "rlh_int/mkn_single_rlh_int_0064.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00048",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00048",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000353",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0353.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000571",
+        "image_path": "rlh_int/mkn_single_rlh_int_0159.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00049",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00049",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000403",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0403.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000574",
+        "image_path": "rlh_int/mkn_single_rlh_int_0162.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00050",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00050",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000244",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0244.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000497",
+        "image_path": "rlh_int/mkn_single_rlh_int_0085.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "marmer/granit"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00051",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00051",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000294",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0294.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000589",
+        "image_path": "rlh_int/mkn_single_rlh_int_0177.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00052",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00052",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000292",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0292.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000615",
+        "image_path": "rlh_int/mkn_single_rlh_int_0203.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00053",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00053",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000379",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0379.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000651",
+        "image_path": "rlh_int/mkn_single_rlh_int_0239.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00054",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00054",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000100",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0100.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000649",
+        "image_path": "rlh_int/mkn_single_rlh_int_0237.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00055",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00055",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000281",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0281.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000650",
+        "image_path": "rlh_int/mkn_single_rlh_int_0238.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00056",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00056",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000328",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0328.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000641",
+        "image_path": "rlh_int/mkn_single_rlh_int_0229.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00057",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00057",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000331",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0331.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000442",
+        "image_path": "rlh_int/mkn_single_rlh_int_0030.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00058",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00058",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000405",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0405.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000660",
+        "image_path": "rlh_int/mkn_single_rlh_int_0248.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00059",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00059",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000365",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0365.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000627",
+        "image_path": "rlh_int/mkn_single_rlh_int_0215.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00060",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00060",
+    "kelayakan_rumah": "layak",
+    "images": [
+      {
+        "image_id": "IMG000368",
+        "image_path": "rlh_ext/mkn_single_rlh_ext_0368.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG000621",
+        "image_path": "rlh_int/mkn_single_rlh_int_0209.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00061",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00061",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000738",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0076.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001089",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0001.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00062",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00062",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000663",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0001.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001090",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0002.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "anyaman_bambu",
+      "lantai": "semen/bata_merah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00063",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00063",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000675",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0013.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001091",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0003.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "anyaman_bambu",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00064",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00064",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000793",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0131.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001092",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0004.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "kayu/sirap",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00065",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00065",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000845",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0183.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001127",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0039.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "jerami/ijuk/daun_daunan/rumbia",
+      "dinding": "anyaman_bambu",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00066",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00066",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001086",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0424.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001119",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0031.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "jerami/ijuk/daun_daunan/rumbia",
+      "dinding": "anyaman_bambu",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00067",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00067",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000673",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0011.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001118",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0030.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "anyaman_bambu",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00068",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00068",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000859",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0197.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001115",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0027.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "jerami/ijuk/daun_daunan/rumbia",
+      "dinding": "anyaman_bambu",
+      "lantai": "bambu"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00069",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00069",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001034",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0372.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001113",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0025.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "anyaman_bambu",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00070",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00070",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001017",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0355.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001109",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0021.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "anyaman_bambu",
+      "lantai": "semen/bata_merah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00071",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00071",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000693",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0031.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001108",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0020.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "anyaman_bambu",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00072",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00072",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000901",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0239.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001105",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0017.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "anyaman_bambu",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00073",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00073",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000732",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0070.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001101",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0013.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "anyaman_bambu",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00074",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00074",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000918",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0256.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001095",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0007.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "anyaman_bambu",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00075",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00075",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001074",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0412.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001126",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0038.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00076",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00076",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000712",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0050.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001125",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0037.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00077",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00077",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000961",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0299.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001124",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0036.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00078",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00078",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001088",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0426.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001123",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0035.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "semen/bata_merah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00079",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00079",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000791",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0129.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001122",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0034.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00080",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00080",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001049",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0387.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001121",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0033.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00081",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00081",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000678",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0016.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001114",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0026.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "tembok",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00082",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00082",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000827",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0165.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001112",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0024.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "semen/bata_merah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00083",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00083",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000812",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0150.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001111",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0023.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "keramik"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00084",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00084",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000755",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0093.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001106",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0018.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "ubin/tegel/teraso"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00085",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00085",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000814",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0152.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001102",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0014.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00086",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00086",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001051",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0389.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001100",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0012.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "semen/bata_merah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00087",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00087",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001036",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0374.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001099",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0011.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "asbes",
+      "dinding": "tembok",
+      "lantai": "semen/bata_merah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00088",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00088",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000916",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0254.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001098",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0010.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00089",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00089",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000676",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0014.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001097",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0009.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00090",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00090",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000885",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0223.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001093",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0005.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "tembok",
+      "lantai": "ubin/tegel/teraso"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00091",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00091",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001060",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0398.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001128",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0040.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00092",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00092",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001041",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0379.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001120",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0032.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00093",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00093",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001044",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0382.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001117",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0029.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00094",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00094",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG001053",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0391.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001116",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0028.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00095",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00095",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000828",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0166.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001110",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0022.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00096",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00096",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000677",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0015.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001107",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0019.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "seng",
+      "dinding": "lainnya",
+      "lantai": "parket/vinil/karpet"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00097",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00097",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000668",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0006.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001104",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0016.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "jerami/ijuk/daun_daunan/rumbia",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00098",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00098",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000674",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0012.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001096",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0008.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00099",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00099",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000895",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0233.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001103",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0015.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "kayu/papan"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  },
+  {
+    "house_id": "H00100",
+    "house_type": "multi",
+    "split": null,
+    "source_group_id": "G00100",
+    "kelayakan_rumah": "tidak_layak",
+    "images": [
+      {
+        "image_id": "IMG000909",
+        "image_path": "rtlh_ext/mkn_single_rtlh_ext_0247.jpg",
+        "view_type": "exterior"
+      },
+      {
+        "image_id": "IMG001094",
+        "image_path": "rtlh_int/mkn_single_rtlh_int_0006.jpg",
+        "view_type": "interior"
+      }
+    ],
+    "cnn_prediction": {
+      "atap": "genteng",
+      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "lantai": "tanah"
+    },
+    "dtsen": {
+      "atap": null,
+      "dinding": null,
+      "lantai": null
+    }
+  }
+]

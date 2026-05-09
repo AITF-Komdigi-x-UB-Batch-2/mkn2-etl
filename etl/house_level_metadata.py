@@ -24,55 +24,50 @@ df.columns = [c.strip().lower() for c in df.columns]
 # =========================
 # INDEX CNN METADATA
 # =========================
-cnn_by_path = {}
 cnn_by_id = {}
+cnn_by_path = {}
 
 for item in cnn_data:
-    cnn_by_path[item["image_path"]] = item
     cnn_by_id[item["id"]] = item
+    cnn_by_path[item["image_path"]] = item
 
 # =========================
 # OUTPUT CONTAINER
 # =========================
 houses = []
-used_image_ids = set()
 
 house_counter = 1
+group_counter = 1
 
-
+# =========================
+# UTIL
+# =========================
 def new_house_id(idx):
     return f"H{idx:05d}"
+
+
+def new_group_id(idx):
+    return f"G{idx:05d}"
 
 
 # =========================================================
 # SOURCE GROUP ID
 # =========================================================
 # Tujuan:
-# image yang muncul di sample multi dan single
+# sample multi dan single yang menggunakan image sama
 # HARUS berada di split yang sama
 #
 # Maka:
-# - multi house dan single house yang berbagi image
-#   memakai source_group_id yang sama
-#
-# Contoh:
-# exterior IMG000006 dan interior IMG000577
-# muncul di:
-#   - multi house
-#   - single exterior
-#   - single interior
-#
-# ketiganya share source_group_id yang sama
+# semua image pair share source_group_id yang sama
 # =========================================================
 image_to_group = {}
-group_counter = 1
 
 for _, row in df.iterrows():
 
     ext_id = str(row["id_exterior"]).strip()
     int_id = str(row["id_interior"]).strip()
 
-    group_id = f"G{group_counter:05d}"
+    group_id = new_group_id(group_counter)
     group_counter += 1
 
     image_to_group[ext_id] = group_id
@@ -80,7 +75,7 @@ for _, row in df.iterrows():
 
 
 # =========================================================
-# AGGREGATE CNN PREDICTION
+# AGGREGATE PREDICTION
 # =========================================================
 def aggregate_prediction(images):
 
@@ -92,13 +87,22 @@ def aggregate_prediction(images):
 
         item = cnn_by_id[img["image_id"]]
 
+        # ======================
+        # EXTERIOR
+        # ======================
         if item["view_type"] == "exterior":
+
             atap = item["material_atap"]
+
+            # dinding utama dari exterior
             dinding = item["material_dinding"]
 
+        # ======================
+        # INTERIOR
+        # ======================
         elif item["view_type"] == "interior":
 
-            # fallback dinding kalau tidak ada exterior
+            # fallback kalau tidak ada exterior
             if dinding is None:
                 dinding = item["material_dinding"]
 
@@ -119,9 +123,6 @@ for _, row in df.iterrows():
     ext_id = str(row["id_exterior"]).strip()
     int_id = str(row["id_interior"]).strip()
 
-    ext_path = str(row["image_path_exterior"]).strip()
-    int_path = str(row["image_path_interior"]).strip()
-
     images = []
 
     # ======================
@@ -137,8 +138,6 @@ for _, row in df.iterrows():
             "view_type": ext_item["view_type"]
         })
 
-        used_image_ids.add(ext_item["id"])
-
     # ======================
     # INTERIOR
     # ======================
@@ -152,32 +151,39 @@ for _, row in df.iterrows():
             "view_type": int_item["view_type"]
         })
 
-        used_image_ids.add(int_item["id"])
-
+    # skip kalau kosong
     if len(images) == 0:
         continue
 
-    # gunakan exterior sebagai referensi utama
+    # referensi utama
     base_item = cnn_by_id[ext_id]
 
+    # source group
     source_group_id = image_to_group.get(ext_id)
+
+    # prediksi agregasi
+    prediksi = aggregate_prediction(images)
 
     house = {
         "house_id": new_house_id(house_counter),
 
         "house_type": "multi",
 
-        # split belum diisi
+        # split nanti diisi setelah splitting
         "split": None,
 
-        # penting untuk anti data leakage
+        # anti leakage
         "source_group_id": source_group_id,
+
+        # validasi DTSEN vs prediksi
+        "match": None,
 
         "kelayakan_rumah": base_item["kelayakan_rumah"],
 
         "images": images,
 
-        "cnn_prediction": aggregate_prediction(images),
+        # rename cnn_prediction -> prediksi
+        "prediksi": prediksi,
 
         "dtsen": {
             "atap": None,
@@ -204,18 +210,19 @@ for item in cnn_data:
     }
 
     # =========================================
-    # Jika image termasuk pair multi:
+    # Kalau image bagian dari pair
     # gunakan source_group_id yang sama
     # =========================================
     if image_id in image_to_group:
+
         source_group_id = image_to_group[image_id]
 
     # =========================================
-    # Jika benar-benar standalone:
-    # buat group sendiri
+    # Standalone image
     # =========================================
     else:
-        source_group_id = f"G{group_counter:05d}"
+
+        source_group_id = new_group_id(group_counter)
         group_counter += 1
 
     # =========================================
@@ -223,7 +230,7 @@ for item in cnn_data:
     # =========================================
     if item["view_type"] == "exterior":
 
-        cnn_prediction = {
+        prediksi = {
             "atap": item["material_atap"],
             "dinding": item["material_dinding"],
             "lantai": None
@@ -231,7 +238,7 @@ for item in cnn_data:
 
     else:
 
-        cnn_prediction = {
+        prediksi = {
             "atap": None,
             "dinding": item["material_dinding"],
             "lantai": item["material_lantai"]
@@ -244,16 +251,17 @@ for item in cnn_data:
 
         "split": None,
 
-        # =====================================
-        # KUNCI ANTI DATA LEAKAGE
-        # =====================================
+        # anti leakage
         "source_group_id": source_group_id,
+
+        # hasil validasi nanti
+        "match": None,
 
         "kelayakan_rumah": item["kelayakan_rumah"],
 
         "images": [image],
 
-        "cnn_prediction": cnn_prediction,
+        "prediksi": prediksi,
 
         "dtsen": {
             "atap": None,
@@ -264,6 +272,12 @@ for item in cnn_data:
 
     houses.append(house)
     house_counter += 1
+
+
+# =========================================================
+# SORT HOUSE
+# =========================================================
+houses = sorted(houses, key=lambda x: x["house_id"])
 
 
 # =========================================================
