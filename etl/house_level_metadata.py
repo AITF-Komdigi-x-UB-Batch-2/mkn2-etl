@@ -47,7 +47,7 @@ def new_house_id(idx):
 
 
 def new_group_id(idx):
-    return f"G{idx:05d}"
+    return f"GID{idx:05d}"
 
 
 # =========================================================
