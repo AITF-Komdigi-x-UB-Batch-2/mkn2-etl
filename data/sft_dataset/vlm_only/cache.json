@@ -1,0 +1,112 @@
+{
+  "2b63e517645fa46db1c9640fd7cf0d349a5a4019": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Reasoning:\nBerdasarkan hasil observasi visual pada citra rumah bagian luar dan dalam, atap rumah terlihat berupa lembaran logam berwarna abu-abu dengan permukaan sedikit reflektif dan sambungan memanjang sehingga dikategorikan sebagai (seng). Dinding luar rumah tampak berupa struktur permanen dengan permukaan diplester dan dicat putih tanpa anyaman sehingga dikategorikan sebagai (tembok). Pada bagian interior rumah, lantai dalam rumah terlihat menggunakan ubin berpotongan persegi dengan permukaan mengkilap dan garis nat terlihat jelas sehingga dikategorikan sebagai (keramik). Berdasarkan karakteristik visual tersebut, rumah diklasifikasikan memiliki atap (seng), dinding (tembok), dan lantai (keramik). Setelah dibandingkan dengan data DTSEN, seluruh hasil identifikasi sesuai dengan data yang tercatat sehingga hasil verifikasi dinyatakan MATCH.\n\nPrediksi\nAtap: seng\nDinding: tembok\nLantai: keramik\n\nDTSEN\nAtap: seng\nDinding: tembok\nLantai: keramik\n\nKesimpulan\nAtap: MATCH\nDinding: MATCH\nLantai: MATCH",
+    "record": {
+      "house_id": "H00039",
+      "source_group_id": "GID00039",
+      "house_type": "multi",
+      "split": "train"
+    }
+  },
+  "648175dd0d2c1ceaf9421572c3f3b7c46a4038dc": {
+    "status": "fail",
+    "reason": "empty_response",
+    "assistant_text": null,
+    "record": {
+      "house_id": "H00185",
+      "source_group_id": "GID00178",
+      "house_type": "single",
+      "split": "train"
+    }
+  },
+  "5f05328ec1eedc7e133e1eb0075b0d101b413829": {
+    "status": "fail",
+    "reason": "empty_response",
+    "assistant_text": null,
+    "record": {
+      "house_id": "H00425",
+      "source_group_id": "GID00373",
+      "house_type": "single",
+      "split": "train"
+    }
+  },
+  "01a94a5bb3c6b00d4b19f3369441d715411071b1": {
+    "status": "fail",
+    "reason": "empty_response",
+    "assistant_text": null,
+    "record": {
+      "house_id": "H00988",
+      "source_group_id": "GID00074",
+      "house_type": "single",
+      "split": "train"
+    }
+  },
+  "ee2d6b93fcc9486a27c9a33dc01d55c368be8f56": {
+    "status": "fail",
+    "reason": "empty_response",
+    "assistant_text": null,
+    "record": {
+      "house_id": "H01146",
+      "source_group_id": "GID00988",
+      "house_type": "single",
+      "split": "train"
+    }
+  },
+  "458e01e34f6853f6e68d2a9b5928d19735a2dc9d": {
+    "status": "fail",
+    "reason": "empty_response",
+    "assistant_text": null,
+    "record": {
+      "house_id": "H00483",
+      "source_group_id": "GID00425",
+      "house_type": "single",
+      "split": "val"
+    }
+  },
+  "e827e1c00c3bb7968426f18f215cf0a28f97ba70": {
+    "status": "fail",
+    "reason": "empty_response",
+    "assistant_text": null,
+    "record": {
+      "house_id": "H00271",
+      "source_group_id": "GID00247",
+      "house_type": "single",
+      "split": "val"
+    }
+  },
+  "273adb0ce34ccb5b8f1ad3524f6985c154abb5f2": {
+    "status": "fail",
+    "reason": "empty_response",
+    "assistant_text": null,
+    "record": {
+      "house_id": "H00433",
+      "source_group_id": "GID00379",
+      "house_type": "single",
+      "split": "val"
+    }
+  },
+  "27ba0743cfd941705e8e6345ce6f064a0c31c63a": {
+    "status": "fail",
+    "reason": "empty_response",
+    "assistant_text": null,
+    "record": {
+      "house_id": "H00228",
+      "source_group_id": "GID00214",
+      "house_type": "single",
+      "split": "val"
+    }
+  },
+  "02310b2d3576cfba1e96fd3cbadf9a039c6c9836": {
+    "status": "fail",
+    "reason": "empty_response",
+    "assistant_text": null,
+    "record": {
+      "house_id": "H00983",
+      "source_group_id": "GID00838",
+      "house_type": "single",
+      "split": "val"
+    }
+  }
+}
