@@ -40,12 +40,12 @@
     ],
     "prediksi": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": null
     },
     "dtsen": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": null
     }
   },
@@ -95,12 +95,12 @@
     ],
     "prediksi": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": null
     },
     "dtsen": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": null
     }
   },
@@ -125,7 +125,7 @@
     },
     "dtsen": {
       "atap": "lainnya",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": null
     }
   },
@@ -175,7 +175,7 @@
     },
     "dtsen": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": null
     }
   },
@@ -200,7 +200,7 @@
     },
     "dtsen": {
       "atap": "lainnya",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": null
     }
   },
@@ -245,7 +245,7 @@
     ],
     "prediksi": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": null
     },
     "dtsen": {
@@ -300,7 +300,7 @@
     ],
     "prediksi": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": null
     },
     "dtsen": {

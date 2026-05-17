@@ -135,7 +135,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "parket/vinil/karpet"
     },
     "dtsen": {
@@ -164,7 +164,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "ubin/tegel/teraso"
     },
     "dtsen": {
@@ -193,7 +193,7 @@
     ],
     "cnn_prediction": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "parket/vinil/karpet"
     },
     "dtsen": {
@@ -628,7 +628,7 @@
     ],
     "cnn_prediction": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "semen/bata_merah"
     },
     "dtsen": {
@@ -918,7 +918,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "parket/vinil/karpet"
     },
     "dtsen": {
@@ -1411,7 +1411,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "parket/vinil/karpet"
     },
     "dtsen": {
@@ -1469,7 +1469,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "kayu/papan"
     },
     "dtsen": {
@@ -1498,7 +1498,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "parket/vinil/karpet"
     },
     "dtsen": {
@@ -1527,7 +1527,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "parket/vinil/karpet"
     },
     "dtsen": {
@@ -1556,7 +1556,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "parket/vinil/karpet"
     },
     "dtsen": {
@@ -1585,7 +1585,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "kayu/papan"
     },
     "dtsen": {
@@ -1846,7 +1846,7 @@
     ],
     "cnn_prediction": {
       "atap": "kayu/sirap",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "kayu/papan"
     },
     "dtsen": {
@@ -2629,7 +2629,7 @@
     ],
     "cnn_prediction": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "parket/vinil/karpet"
     },
     "dtsen": {
@@ -2658,7 +2658,7 @@
     ],
     "cnn_prediction": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "kayu/papan"
     },
     "dtsen": {
@@ -2687,7 +2687,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "kayu/papan"
     },
     "dtsen": {
@@ -2716,7 +2716,7 @@
     ],
     "cnn_prediction": {
       "atap": "seng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "kayu/papan"
     },
     "dtsen": {
@@ -2745,7 +2745,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "kayu/papan"
     },
     "dtsen": {
@@ -2803,7 +2803,7 @@
     ],
     "cnn_prediction": {
       "atap": "jerami/ijuk/daun_daunan/rumbia",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "tanah"
     },
     "dtsen": {
@@ -2832,7 +2832,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "kayu/papan"
     },
     "dtsen": {
@@ -2861,7 +2861,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "kayu/papan"
     },
     "dtsen": {
@@ -2890,7 +2890,7 @@
     ],
     "cnn_prediction": {
       "atap": "genteng",
-      "dinding": "kayu/papan/gypsum/GRC/calciboar",
+      "dinding": "kayu/papan/gypsum/GRC/calciboard",
       "lantai": "tanah"
     },
     "dtsen": {
