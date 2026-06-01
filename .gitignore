@@ -217,3 +217,7 @@ data/mkn_img/rlh_ext/
 data/mkn_img/rlh_int/
 data/duplicates/
 data/invalid_files/
+
+# Excel files in data folder
+data/*.xlsx
+data/**/*.xlsx
