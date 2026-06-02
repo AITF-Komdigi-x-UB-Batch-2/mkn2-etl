@@ -19,7 +19,13 @@ class RutilahuETLPipeline:
     def __init__(self):
         self.extractor = DinsosHouseImagesExtractor()
         self.downloader = DinsosHouseDownloadMetadataPipeline()
-        self.sampler = DinsosHouseMetadataSampler()
+        self._sampler = None  # Lazy initialization
+
+    @property
+    def sampler(self):
+        if self._sampler is None:
+            self._sampler = DinsosHouseMetadataSampler()
+        return self._sampler
 
     def run_extract(self) -> None:
         df = self.extractor.run()
