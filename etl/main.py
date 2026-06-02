@@ -12,12 +12,14 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from etl.extract_dinsos_house_images_data import DinsosHouseImagesExtractor
 from etl.download_images_and_metadata import DinsosHouseDownloadMetadataPipeline
+from etl.sample_metadata_from_multi import DinsosHouseMetadataSampler
 
 
 class RutilahuETLPipeline:
     def __init__(self):
         self.extractor = DinsosHouseImagesExtractor()
         self.downloader = DinsosHouseDownloadMetadataPipeline()
+        self.sampler = DinsosHouseMetadataSampler()
 
     def run_extract(self) -> None:
         df = self.extractor.run()
@@ -29,9 +31,18 @@ class RutilahuETLPipeline:
         for k, v in outputs.items():
             print(f"{k}: {v}")
 
+    def run_sample_metadata(self) -> None:
+        outputs = self.sampler.run()
+        print("[OK] Sampling metadata selesai.")
+        for k, v in outputs.items():
+            print(f"{k}: {v}")
+
     def run_all(self) -> None:
-        self.run_extract()
+        # Catatan:
+        # extract dijalankan di local,
+        # sedangkan download + metadata + sampling dijalankan di server.
         self.run_download_and_metadata()
+        self.run_sample_metadata()
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -42,7 +53,12 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Jalankan download image ke MinIO + pembuatan metadata",
     )
-    parser.add_argument("--all", action="store_true", help="Jalankan semua task")
+    parser.add_argument(
+        "--sample_metadata",
+        action="store_true",
+        help="Jalankan sampling metadata multi menjadi multi + single split",
+    )
+    parser.add_argument("--all", action="store_true", help="Jalankan download_metadata + sample_metadata")
     return parser
 
 
@@ -64,6 +80,10 @@ def main():
 
     if args.download_metadata:
         pipeline.run_download_and_metadata()
+        did_run = True
+
+    if args.sample_metadata:
+        pipeline.run_sample_metadata()
         did_run = True
 
     if not did_run:

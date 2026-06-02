@@ -3,3 +3,6 @@ from etl.download_images_and_metadata import (
     DinsosHouseDownloadMetadataPipeline,
     DownloadMetadataConfig,
 )
+from etl.sample_metadata_from_multi import (
+    DinsosHouseMetadataSampler, 
+    SampleMetadataConfig)

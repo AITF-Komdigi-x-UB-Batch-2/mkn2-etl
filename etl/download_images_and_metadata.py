@@ -6,11 +6,13 @@ from typing import Any, Dict, List
 import csv
 import io
 import json
+import os
 from concurrent.futures import ThreadPoolExecutor
 
 import pandas as pd
 import requests
 from minio import Minio
+from dotenv import load_dotenv
 
 from etl.common import (
     build_image_db_url,
@@ -21,26 +23,58 @@ from etl.common import (
     infer_extension_from_url,
 )
 
+# Load environment variables from .env
+load_dotenv()
+
 
 @dataclass
 class DownloadMetadataConfig:
-    extracted_excel: Path = Path("~/workdir/mkn/MKN-2/rutilahu-vlm-etl/data/data_keluarga_dinsos_jatim_extracted.xlsx").expanduser()
-    metadata_dir: Path = Path("~/workdir/mkn/MKN-2/rutilahu-vlm-etl/metadata").expanduser()
+    extracted_excel: Path = Path("data/data_keluarga_dinsos_jatim_extracted.xlsx").expanduser()
+    metadata_dir: Path = Path("metadata").expanduser()
     workers: int = 16
 
-    # MinIO local
-    minio_endpoint: str = "76.13.194.250:9010"
-    minio_access_key: str = "mkn2"
-    minio_secret_key: str = "aitf_mkn2"
+    # MinIO configuration from environment variables
+    minio_endpoint: str = None
+    minio_access_key: str = None
+    minio_secret_key: str = None
     minio_secure: bool = False
-    bucket_name: str = "mkn2"
-
-    # URL publik untuk image_db_url
-    public_base_url: str = "http://76.13.194.250:9010"
+    bucket_name: str = None
+    public_base_url: str = None
 
     # folder object di bucket
     exterior_prefix: str = "tampak_luar"
     interior_prefix: str = "tampak_dalam"
+
+    def __post_init__(self):
+        # Load from environment variables (required - no defaults!)
+        if self.minio_endpoint is None:
+            self.minio_endpoint = os.getenv("MINIO_ENDPOINT")
+            if not self.minio_endpoint:
+                raise ValueError("MINIO_ENDPOINT environment variable is required")
+        
+        if self.minio_access_key is None:
+            self.minio_access_key = os.getenv("MINIO_ACCESS_KEY")
+            if not self.minio_access_key:
+                raise ValueError("MINIO_ACCESS_KEY environment variable is required")
+        
+        if self.minio_secret_key is None:
+            self.minio_secret_key = os.getenv("MINIO_SECRET_KEY")
+            if not self.minio_secret_key:
+                raise ValueError("MINIO_SECRET_KEY environment variable is required")
+        
+        if self.bucket_name is None:
+            self.bucket_name = os.getenv("MINIO_BUCKET_NAME")
+            if not self.bucket_name:
+                raise ValueError("MINIO_BUCKET_NAME environment variable is required")
+        
+        if self.public_base_url is None:
+            self.public_base_url = os.getenv("MINIO_PUBLIC_BASE_URL")
+            if not self.public_base_url:
+                raise ValueError("MINIO_PUBLIC_BASE_URL environment variable is required")
+        
+        # Parse secure flag from env
+        secure_str = os.getenv("MINIO_SECURE", "False")
+        self.minio_secure = secure_str.lower() in ("true", "1", "yes")
 
 
 @dataclass
@@ -234,7 +268,11 @@ class DinsosHouseDownloadMetadataPipeline:
             "match": None,
             "images": images,
             "actual_label": first.get("actual_label"),
-            "dtsen": None,
+            "dtsen": {
+                "atap": None,
+                "dinding": None,
+                "lantai": None,
+            }
         }
         return metadata
 
