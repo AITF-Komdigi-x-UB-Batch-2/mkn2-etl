@@ -1,0 +1,52 @@
+{
+  "01a94a5bb3c6b00d4b19f3369441d715411071b1": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,genteng,Sesuai,\"Atap utama tampak menggunakan genteng tanah liat berbaris bergelombang dan berwarna merah kecokelatan.\"\nDinding,anyaman_bambu,Sesuai,\"Dinding tampak tersusun dari anyaman bambu polos yang menutup permukaan fasad.\"\nLantai,Tidak terdeteksi,Tidak teridentifikasi,\"Variabel lantai tidak dapat diidentifikasi karena foto rumah tampak dalam tidak tersedia.\""
+  },
+  "648175dd0d2c1ceaf9421572c3f3b7c46a4038dc": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,seng,Sesuai,\"Atap utama tampak menggunakan lembaran seng bergelombang/halus pada bidang atap segitiga.\"\nDinding,kayu/papan/gypsum/GRC/calciboard,Sesuai,\"Dinding luar tampak tersusun dari papan kayu horizontal dengan sambungan panel yang terlihat.\"\nLantai,Tidak terdeteksi,Tidak teridentifikasi,\"Variabel lantai tidak dapat diidentifikasi karena foto rumah tampak dalam tidak tersedia.\""
+  },
+  "2b63e517645fa46db1c9640fd7cf0d349a5a4019": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,seng,Sesuai,\"Atap utama tampak menggunakan lembaran seng bergelombang pada bidang atap rumah.\"\nDinding,tembok,Sesuai,\"Dinding luar tampak menggunakan permukaan bidang solid dan rata yang menunjukkan pasangan tembok berplester.\"\nLantai,keramik,Sesuai,\"Lantai dalam tampak berlapis ubin keramik mengkilap dengan pola sambungan nat terlihat.\""
+  },
+  "5f05328ec1eedc7e133e1eb0075b0d101b413829": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,genteng,Tidak sesuai,\"Atap utama tampak menggunakan genteng beton persegi dengan pola baris horizontal pada bidang atap.\"\nDinding,tembok,Tidak sesuai,\"Dinding fasad tampak tersusun dari papan bergaris horizontal bertekstur, terlihat pada area hijau di samping pintu.\"\nLantai,Tidak terdeteksi,Tidak teridentifikasi,\"Variabel lantai tidak dapat diidentifikasi karena foto rumah tampak dalam tidak tersedia.\""
+  },
+  "ee2d6b93fcc9486a27c9a33dc01d55c368be8f56": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,seng,Sesuai,\"Atap utama tampak menggunakan lembaran seng bergelombang pada bidang atap segitiga.\"\nDinding,kayu/papan/gypsum/GRC/calciboard,Sesuai,\"Dinding fasad tampak tersusun dari papan kayu horizontal dengan permukaan bidang solid dan sambungan terlihat.\"\nLantai,Tidak terdeteksi,Tidak teridentifikasi,\"Variabel lantai tidak dapat diidentifikasi karena foto rumah tampak dalam tidak tersedia.\""
+  },
+  "273adb0ce34ccb5b8f1ad3524f6985c154abb5f2": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,genteng,Tidak sesuai,\"Atap utama tampak menggunakan lembaran seng bergelombang/terasn pada bidang miring atap.\"\nDinding,tembok,Tidak sesuai,\"Dinding fasad tampak tersusun dari papan horisontal berlapis cat kuning dan bidang plaster rata.\"\nLantai,Tidak terdeteksi,Tidak teridentifikasi,\"Variabel lantai tidak dapat diidentifikasi karena foto rumah tampak dalam tidak tersedia.\""
+  },
+  "e827e1c00c3bb7968426f18f215cf0a28f97ba70": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,seng,Tidak sesuai,\"Atap utama tampak menggunakan lembaran datar berwarna terang dengan permukaan halus pada bidang segitiga atap.\"\nDinding,tembok,Tidak sesuai,\"Dinding luar tampak tersusun dari papan kayu/board dengan sambungan panel vertikal dan pola garis sambungan terlihat.\"\nLantai,Tidak terdeteksi,Tidak teridentifikasi,\"Variabel lantai tidak dapat diidentifikasi karena foto rumah tampak dalam tidak tersedia.\""
+  },
+  "458e01e34f6853f6e68d2a9b5928d19735a2dc9d": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,genteng,Sesuai,\"Atap utama tampak menggunakan genteng keramik bergelombang dengan susunan baris tumpang pada bidang atap segitiga.\"\nDinding,tembok,Sesuai,\"Dinding luar tampak menggunakan bidang plesteran dan cat berpermukaan solid dan rata pada fasad utama.\"\nLantai,Tidak terdeteksi,Tidak teridentifikasi,\"Variabel lantai tidak dapat diidentifikasi karena foto rumah tampak dalam tidak tersedia.\""
+  },
+  "02310b2d3576cfba1e96fd3cbadf9a039c6c9836": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,genteng,Tidak sesuai,\"Atap utama tampak menggunakan genteng tanah liat gelombang berlapis pada bidang atap segitiga.\"\nDinding,kayu/papan/gypsum/GRC/calciboard,Tidak sesuai,\"Dinding luar tampak tersusun dari papan kayu vertikal dengan permukaan bidang solid dan rata.\"\nLantai,Tidak terdeteksi,Tidak teridentifikasi,\"Variabel lantai tidak dapat diidentifikasi karena foto rumah tampak dalam tidak tersedia.\""
+  },
+  "27ba0743cfd941705e8e6345ce6f064a0c31c63a": {
+    "status": "ok",
+    "reason": null,
+    "assistant_text": "Hasil[3]{Komponen,Prediksi,Status,Alasan}:\nAtap,genteng,Tidak sesuai,\"Atap utama tampak menggunakan genteng metal/komposit berpanel merah dengan pola bergelombang pada bidang segitiga.\"\nDinding,anyaman_bambu,Tidak sesuai,\"Dinding tampak tersusun dari bilah bambu dan anyaman bambu pada bidang fasad utama.\"\nLantai,Tidak terdeteksi,Tidak teridentifikasi,\"Variabel lantai tidak dapat diidentifikasi karena foto rumah tampak dalam tidak tersedia.\""
+  }
+}
