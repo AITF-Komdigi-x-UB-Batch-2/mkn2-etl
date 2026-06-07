@@ -1,0 +1,242 @@
+from __future__ import annotations
+
+import json
+from collections import defaultdict
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
+
+
+@dataclass
+class LabelStudioConfig:
+    input_jsonl: Path = Path("metadata_sample/sample_metadata_augmented.jsonl")
+    output_json: Path = Path("metadata/labelstudio_metadata_input.json")
+
+
+class LabelStudioMetadataGenerator:
+    def __init__(self, config: LabelStudioConfig | None = None):
+        self.config = config or LabelStudioConfig()
+
+    @staticmethod
+    def _read_jsonl(path: Path) -> List[Dict[str, Any]]:
+        if not path.exists():
+            raise FileNotFoundError(f"File tidak ditemukan: {path}")
+
+        records: List[Dict[str, Any]] = []
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    records.append(json.loads(line))
+        return records
+
+    @staticmethod
+    def _normalize_house_type_for_ls(house_type: str) -> str:
+        mapping = {
+            "multi": "multi",
+            "single_exterior_only": "exterior_only",
+            "single_interior_only": "interior_only",
+        }
+        return mapping.get(str(house_type).strip().lower(), "multi")
+
+    @staticmethod
+    def _normalize_choice_text(value: Any) -> Optional[str]:
+        if value is None:
+            return None
+        text = str(value).strip()
+        if text == "" or text.lower() in {"none", "null"}:
+            return None
+        return text
+
+    @staticmethod
+    def _actual_label_to_choice(
+        value: Any,
+        field_name: str,
+        house_type: str,
+    ) -> str:
+        """
+        Convert actual_label values from sample_metadata_augmented.jsonl
+        into Label Studio choice strings.
+        """
+        normalized = LabelStudioMetadataGenerator._normalize_choice_text(value)
+
+        if normalized is not None:
+            return normalized
+        return "Belum Diisi"
+
+    @staticmethod
+    def _get_images_by_view(record: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+        images = record.get("images", [])
+        if isinstance(images, str):
+            try:
+                images = json.loads(images)
+            except Exception:
+                images = []
+
+        if not isinstance(images, list):
+            images = []
+
+        exterior_images = []
+        interior_images = []
+
+        for img in images:
+            if not isinstance(img, dict):
+                continue
+            view_type = str(img.get("view_type", "")).strip().lower()
+            if view_type == "exterior":
+                exterior_images.append(img)
+            elif view_type == "interior":
+                interior_images.append(img)
+
+        return exterior_images, interior_images
+
+    @staticmethod
+    def _slot_image_data(
+        images: List[Dict[str, Any]],
+        idx: int,
+    ) -> Tuple[str, str]:
+        """
+        Return (image_url, image_id) for slot index:
+        idx=0 -> first image
+        idx=1 -> second image
+        """
+        if idx >= len(images):
+            return "", ""
+
+        img = images[idx]
+        image_url = str(img.get("image_db_url") or img.get("image_path") or "")
+        image_id = str(img.get("image_id") or "")
+        return image_url, image_id
+
+    @staticmethod
+    def _build_choice_result(from_name: str, to_name: str, choice_value: str) -> Dict[str, Any]:
+        return {
+            "from_name": from_name,
+            "to_name": to_name,
+            "type": "choices",
+            "value": {
+                "choices": [choice_value],
+            },
+        }
+
+    def _build_data_block(self, record: Dict[str, Any]) -> Dict[str, Any]:
+        house_id = record.get("house_id", "")
+        house_type = str(record.get("house_type", "")).strip().lower()
+
+        exterior_images, interior_images = self._get_images_by_view(record)
+
+        ext_img_1_db, ext_img_1_id = self._slot_image_data(exterior_images, 0)
+        ext_img_2_db, ext_img_2_id = self._slot_image_data(exterior_images, 1)
+        int_img_1_db, int_img_1_id = self._slot_image_data(interior_images, 0)
+        int_img_2_db, int_img_2_id = self._slot_image_data(interior_images, 1)
+
+
+        return {
+            "house_id": house_id,
+            "house_type": self._normalize_house_type_for_ls(house_type),
+
+            # image existence controllers for Label Studio UI
+            "ext_img_1_exists": "yes" if len(exterior_images) >= 1 else "no",
+            "ext_img_2_exists": "yes" if len(exterior_images) >= 2 else "no",
+            "int_img_1_exists": "yes" if len(interior_images) >= 1 else "no",
+            "int_img_2_exists": "yes" if len(interior_images) >= 2 else "no",
+
+            # image URLs shown in LS
+            "ext_img_1": ext_img_1_db,
+            "ext_img_2": ext_img_2_db,
+            "int_img_1": int_img_1_db,
+            "int_img_2": int_img_2_db,
+
+            # image IDs for tracking
+            "ext_img_1_id": ext_img_1_id,
+            "ext_img_2_id": ext_img_2_id,
+            "int_img_1_id": int_img_1_id,
+            "int_img_2_id": int_img_2_id,
+        }
+
+    def _build_predictions(self, record: Dict[str, Any]) -> List[Dict[str, Any]]:
+        house_type = str(record.get("house_type", "")).strip().lower()
+        actual_label = record.get("actual_label", {})
+        if isinstance(actual_label, str):
+            try:
+                actual_label = json.loads(actual_label)
+            except Exception:
+                actual_label = {}
+
+        if not isinstance(actual_label, dict):
+            actual_label = {}
+
+        exterior_images, interior_images = self._get_images_by_view(record)
+
+        result: List[Dict[str, Any]] = []
+
+        # House type
+        result.append(
+            self._build_choice_result(
+                from_name="house_type_valid",
+                to_name="house_anchor",
+                choice_value=self._normalize_house_type_for_ls(house_type),
+            )
+        )
+
+        # Image existence controllers
+        result.append(self._build_choice_result("ext_img_1_exists_ctrl", "house_anchor", "yes" if len(exterior_images) >= 1 else "no"))
+        result.append(self._build_choice_result("ext_img_2_exists_ctrl", "house_anchor", "yes" if len(exterior_images) >= 2 else "no"))
+        result.append(self._build_choice_result("int_img_1_exists_ctrl", "house_anchor", "yes" if len(interior_images) >= 1 else "no"))
+        result.append(self._build_choice_result("int_img_2_exists_ctrl", "house_anchor", "yes" if len(interior_images) >= 2 else "no"))
+
+        # Material labels
+        result.append(
+            self._build_choice_result(
+                "jenis_atap_terluas",
+                "house_anchor",
+                self._actual_label_to_choice(actual_label.get("atap"), "atap", house_type),
+            )
+        )
+        result.append(
+            self._build_choice_result(
+                "jenis_dinding_terluas",
+                "house_anchor",
+                self._actual_label_to_choice(actual_label.get("dinding"), "dinding", house_type),
+            )
+        )
+        result.append(
+            self._build_choice_result(
+                "jenis_lantai_terluas",
+                "house_anchor",
+                self._actual_label_to_choice(actual_label.get("lantai"), "lantai", house_type),
+            )
+        )
+
+        # KEEP defaults for all visible images
+        if len(exterior_images) >= 1:
+            result.append(self._build_choice_result("ext_img_1_status", "ext_img_1", "KEEP"))
+        if len(exterior_images) >= 2:
+            result.append(self._build_choice_result("ext_img_2_status", "ext_img_2", "KEEP"))
+        if len(interior_images) >= 1:
+            result.append(self._build_choice_result("int_img_1_status", "int_img_1", "KEEP"))
+        if len(interior_images) >= 2:
+            result.append(self._build_choice_result("int_img_2_status", "int_img_2", "KEEP"))
+
+        return result
+
+    def run(self) -> Path:
+        records = self._read_jsonl(self.config.input_jsonl)
+
+        output_items: List[Dict[str, Any]] = []
+        for record in records:
+            item = {
+                "data": self._build_data_block(record),
+                "predictions": [
+                    {
+                        "result": self._build_predictions(record),
+                    }
+                ],
+            }
+            output_items.append(item)
+
+        self.config.output_json.parent.mkdir(parents=True, exist_ok=True)
+        with open(self.config.output_json, "w", encoding="utf-8") as f:
+            json.dump(output_items, f, ensure_ascii=False, indent=2)
+
+        return self.config.output_json

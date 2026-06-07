@@ -5,4 +5,9 @@ from etl.download_images_and_metadata import (
 )
 from etl.sample_metadata_from_multi import (
     DinsosHouseMetadataSampler, 
-    SampleMetadataConfig)
+    SampleMetadataConfig,
+)
+from etl.augment_sample_metadata_from_crawling import (
+    SampleMetadataAugmentor,
+    AugmentConfig,
+)

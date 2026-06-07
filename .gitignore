@@ -207,16 +207,14 @@ marimo/_lsp/
 __marimo__/
 
 # Data directories (large files)
-data/raw_img/
-data/single_images_exterior/
-data/single_images_interior/
-data/mkn_img/multi_images/
-data/mkn_img/rtlh_ext/
-data/mkn_img/rtlh_int/
-data/mkn_img/rlh_ext/
-data/mkn_img/rlh_int/
-data/duplicates/
-data/invalid_files/
+/data/*
+!/data/.gitkeep
+
+/metadata/*
+!/metadata/.gitkeep
+
+/metadata_sample/*
+!/metadata_sample/.gitkeep
 
 # Excel files in data folder
 data/*.xlsx

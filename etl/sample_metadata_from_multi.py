@@ -236,7 +236,7 @@ class DinsosHouseMetadataSampler:
 
         if view_type == "exterior":
             house_type = "single_exterior_only"
-            split = "exterior"
+            split = None
             house_id = f"{record.get('house_id')}_EXT"
             actual_label = {
                 "atap": base_label.get("atap"),
@@ -245,7 +245,7 @@ class DinsosHouseMetadataSampler:
             }
         else:
             house_type = "single_interior_only"
-            split = "interior"
+            split = None
             house_id = f"{record.get('house_id')}_INT"
             actual_label = {
                 "atap": "Tidak Terdeteksi",
